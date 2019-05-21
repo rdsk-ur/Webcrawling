@@ -28,4 +28,3 @@ class StackSpider(scrapy.Spider):
         else:
             self.output_file.flush()
             self.output_file.close()
-            self.plot_tags(self.out_path)
